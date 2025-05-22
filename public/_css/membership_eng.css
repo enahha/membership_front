@@ -1,0 +1,1561 @@
+/*멤버쉽 공통*/
+.membership_wrap{
+	background:#0f0f17;
+	color:#fff;
+	padding-top:20rem;
+	padding-bottom:15rem;
+}
+.membership_wrap h3{
+	font-size:5rem;
+	text-align:center;
+	font-weight:600;
+	margin-bottom:6rem;
+}
+.membership_wrap h3 small{
+	display:block;
+	opacity:.6;
+	font-size:1.8rem;
+	font-weight:300;
+	margin-top:1.5rem;
+}
+@media(max-width:991.98px){
+	.membership_wrap h3{
+		font-size:4rem;
+		margin-bottom:5rem;
+	}
+}
+@media(max-width:767.98px){
+	.membership_wrap{
+		padding-top:15rem;
+		padding-bottom:10rem;
+	}
+	.membership_wrap h3{
+		font-size:3.4rem;
+	}
+}
+@media(max-width:576.98px){
+
+	.membership_wrap h3{
+		font-size:2.8rem;
+		text-align:center;
+	}
+	.membership_wrap h3 span{
+		display:block;
+	}
+}
+
+
+
+.membership_reservation .form_box h4,
+.membership_wrap h4.mem_title{
+	display:flex;
+	border-bottom:2px solid #fff;
+	padding-bottom:1rem;
+	font-size:2.6rem;
+	align-items: center;
+	margin-bottom:4rem;
+}
+.membership_reservation .form_box h4 span,
+.membership_wrap h4.mem_title span{
+	margin-left:auto;
+	font-size:1.6rem;
+	font-weight:300;
+}
+.membership_reservation .form_box h4 span::before,
+.membership_reservation .form_box > ul > li > strong:not(.f)::after,
+.membership_wrap h4.mem_title span::before{
+	content:"*";
+	color:var(--main-color2);
+	font-size:1.2em;
+	font-weight:500;
+}
+
+.membership_reservation .notice_box,
+.membership_wrap .notice_box{
+	background:#191922;
+	color:#fff;
+	padding:3rem;
+	font-size:1.7rem;
+	display:flex;
+	gap:.6rem;
+	font-weight:300;
+}
+.membership_reservation .notice_box.bdr,
+.membership_wrap .notice_box.bdr{
+	background:none;
+	border:1px solid #4b4c4f;
+}
+.membership_reservation .notice_box.restaurant{
+	display:none;
+}
+.membership_reservation .notice_box i,
+.membership_wrap .notice_box i{
+	font-size:1.2em;
+}
+@media(max-width:767.98px){
+	.membership_reservation .notice_box,
+	.membership_wrap .notice_box{
+		padding:2rem;
+		font-size:1.6rem;
+	}
+}
+
+
+
+/*membership_main*/
+.membership_main{}
+.membership_main .mem_sec01{
+	padding-top:20rem;
+	padding-bottom:12rem;
+	color:#fff;
+}
+.membership_main .mem_sec01::before{
+	background:#070707 url(../_img/membership/sec01_bg.jpg) repeat-x center top;
+}
+.membership_main .mem_sec01 h3{
+	font-size:7rem;
+	font-weight:300;
+	color:var(--gold-color);
+	margin-bottom:7rem;
+}
+.membership_main .mem_sec01 h3 small{
+	font-size:.4em;
+	color:#fff;
+	display:block;
+	margin-bottom:2rem;
+	font-weight:300;
+}
+.membership_main .mem_sec01 h3 strong{
+	font-weight:600;
+	display:block;
+}
+.membership_main .mem_sec01 h3+.desc{
+	font-size:3rem;
+	font-weight:100;
+}
+.membership_main .mem_sec01 h3+.desc strong{
+	font-weight:600;
+}
+.membership_main .mem_sec01 hr{
+	border-top:1px solid rgba(255,255,255,.25);
+	opacity:1;
+	margin:15rem 0 8rem 0;
+}
+.membership_main .mem_sec01 .info{
+	color:#a7a7a7;
+	font-size:1.8rem;
+	font-weight:300;
+	line-height:1.8;
+}
+
+.membership_main .mem_sec01 h4{
+	text-align:Center;
+	color:#fff;
+	font-size:4.6rem;
+	margin-top:9rem;
+	margin-bottom:4rem;
+}
+.membership_main .mem_sec01 .service{
+
+}
+.membership_main .mem_sec01 .service > div{
+	width:calc(100%/3);
+	text-align:center;
+	margin-bottom:3rem;
+}
+.membership_main .mem_sec01 .service > div .box{
+	background:#121212;
+	border:1px solid #473d2f;
+	padding:5rem 15px;
+	min-height:37rem
+}
+.membership_main .mem_sec01 .service > div .box .num{
+	color:#dcbc8d;
+	font-size:1.8rem;
+}
+.membership_main .mem_sec01 .service > div .box .icon{
+	margin:2rem 0;
+}
+.membership_main .mem_sec01 .service > div .box .icon img{
+	width:4.5rem;
+}
+.membership_main .mem_sec01 .service > div .box .title{
+	font-size:2.4rem;
+	margin-bottom:1.5rem;
+}
+.membership_main .mem_sec01 .service > div .box .desc{
+	font-size:1.8rem;
+	color:#a7a7a7
+}
+@media(max-width:991.98px){
+	.membership_main .mem_sec01 .service > div .box{
+		min-height:unset;
+	}
+}
+
+
+.membership_main .mem_sec02{
+	padding-top:12rem;
+	padding-bottom:12rem;
+	text-align:center;
+	color:#fff;
+}
+.membership_main .mem_sec02::before{
+	background:#0f0f17;
+}
+
+.membership_main .mem_sec02 h3{
+	font-size:4.6rem;
+	margin-bottom:4rem;
+}
+.membership_main .mem_sec02 .item_list{
+	display:flex;
+	justify-content: center;
+	margin-left:-15px;
+	margin-right:-15px;
+}
+.membership_main .mem_sec02 .item_list > .item{
+	width:calc(100%/2);
+	padding-left:15px;
+	padding-right:15px;
+}
+.membership_main .mem_sec02 .item_list .thumb img{
+	width:100%;
+}
+.membership_main .mem_sec02 .item_list > .item .title{
+	font-size:2.4rem;
+	margin:2rem 0 1.5rem 0;
+}
+.membership_main .mem_sec02 .item_list > .item .desc{
+	font-size:2rem;
+	margin-bottom:2rem;
+	color:#a7a7a7;
+	font-weight:300;
+}
+.membership_main .mem_sec02 .item_list > .item .go a{
+	display:flex;
+	height:6.5rem;
+	width:20rem;
+	color:#fff;
+	background:var(--main-color2);
+	margin:0 auto;
+	align-items: center;
+	justify-content: center;
+	border-radius:6rem;
+	font-size:2rem;
+}
+
+@media(max-width:991.98px){
+	.membership_main .mem_sec01 {
+		padding-top: 14rem;
+		padding-bottom: 8rem;
+	}
+	.membership_main .mem_sec01{
+		text-align:center;
+	}
+	.membership_main .mem_sec01 h3{
+		font-size:5rem;
+		margin-bottom:3rem;
+	}
+	.membership_main .mem_sec01 h3+.desc{
+		font-size:2.4rem;
+	}
+	.membership_main .mem_sec01 hr {
+		margin: 10rem 0 4rem 0;
+	}
+	.membership_main .mem_sec01 h4{
+		font-size:3.6rem;
+		margin-top: 5rem;
+		margin-bottom: 3rem;
+	}
+	.membership_main .mem_sec01 .service > div{
+		width:calc(100%/2)
+	}
+
+	.membership_main .mem_sec02 {
+		padding-top: 8rem;
+		padding-bottom: 8rem;
+	}
+	.membership_main .mem_sec02 h3{
+		font-size:3.6rem;
+	}
+}
+
+@media(max-width:767.98px){
+	.membership_main .mem_sec01 {
+		padding-top: 8rem;
+		padding-bottom: 8rem;
+	}
+	.membership_main .mem_sec01 h3{
+		font-size:3.6rem;
+	}
+	.membership_main .mem_sec01 h3+.desc{
+		font-size:2rem;
+	}
+	.membership_main .mem_sec01 hr {
+		margin: 6rem 0 4rem 0;
+	}
+	.membership_main .mem_sec02 .item_list{
+		flex-wrap:wrap;
+	}
+	.membership_main .mem_sec02 .item_list > .item{
+		width:calc(100%)
+	}
+	.membership_main .mem_sec01 h4 {
+		font-size: 2.8rem;
+	}
+	.membership_main .mem_sec01 .service > div {
+		width: calc(100% / 1);
+	}
+	.membership_main .mem_sec02 h3 {
+		font-size: 3.2rem;
+	}
+}
+
+
+
+/*membership1 - 이용 nft 선택*/
+.membership1_wrap{}
+.membership1_wrap .mem_sec01{
+	text-align:center;
+	padding-top:18rem;
+	padding-bottom:15rem;
+}
+.membership1_wrap .mem_sec01::before{
+	background:url(../_img/membership/membership1_bg.jpg) no-repeat center top / cover;
+}
+.membership1_wrap .mem_sec01 h3{
+	font-size:5rem;
+	color:var(--gold-color);
+	font-weight:600;
+	margin-bottom:6rem;
+}
+.membership1_wrap .mem_sec01 h3 p{
+	display:block;
+	margin-bottom:2rem;
+}
+.membership1_wrap .mem_sec01 .nft_select{
+	display:flex;
+	margin-bottom:8rem;
+	align-items: flex-end;
+}
+.membership1_wrap .mem_sec01 .nft_select a{
+	width:50%;
+	position:relative;
+	transition:all .4s;
+}
+.membership1_wrap .mem_sec01 .nft_select a:hover{
+	transform: scale(1.07);
+	z-index:1;
+}
+.membership1_wrap .mem_sec01 .nft_select a >p:nth-child(1){
+	filter: grayscale(100%);
+	transition:all .4s;
+}	
+.membership1_wrap .mem_sec01 .nft_select a.is-active > p:nth-child(1){
+	filter: grayscale(0);
+	position:relative;
+}
+.membership1_wrap .mem_sec01 .nft_select a.is-active > p:nth-child(1)::before{
+	content:"Available";
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:100%;
+	padding:1rem;
+	text-align:center;
+	font-size:1.6rem;
+	color:#000;
+	background:rgba(59, 255, 174,.8)
+}
+.membership1_wrap .mem_sec01 .nft_select a >p:nth-child(2){
+	color:#fff;
+	font-size:2.2rem;
+	margin-top:2rem;
+	font-weight:600;
+}	
+
+@media(max-width:991.98px){
+	.membership1_wrap .mem_sec01 h3{
+		font-size:4rem;
+		margin-bottom:5rem;
+	}
+	.membership1_wrap .mem_sec01 .nft_select{
+		margin-bottom:6rem;
+	}
+}
+
+@media(max-width:767.98px){
+	.membership1_wrap .mem_sec01 h3 p img{
+		width:28rem;
+	}
+	.membership1_wrap .mem_sec01 h3{
+		font-size:3.4rem;
+		margin-bottom:4rem;
+	}
+	.membership1_wrap .mem_sec01 .nft_select{
+		margin-bottom:5rem;
+		flex-direction: column;
+	}
+	.membership1_wrap .mem_sec01 .nft_select a{
+		width:100%;
+	}
+	.membership1_wrap .mem_sec01 .nft_select a + a{
+		margin-top:3rem;
+	}
+}
+
+@media(max-width:576.98px){
+	.membership1_wrap .mem_sec01 h3{
+		font-size:3.2rem;
+	}
+
+}
+
+
+/*membership_hotel*/
+.membership_hotel {
+	background:#0f0f17;
+	color:#fff;
+}
+.membership_hotel .mem_sec01{
+	padding-top:20rem;
+	padding-bottom:20rem;
+	text-align:center;
+	color:#fff;
+}
+.membership_hotel .mem_sec01::before{
+	background:url(../_img/membership/membership1_bg.jpg) no-repeat center center / cover;
+}
+.membership_hotel .mem_sec01 h3{
+	font-size:5rem;
+	color:var(--gold-color);
+	margin-bottom:5rem;
+}
+.membership_hotel .mem_sec01 h3 p{
+	margin-bottom:3rem;
+}
+.membership_hotel .mem_sec01 h3 small{
+	font-size:2rem;
+	display:block;
+	font-weight:300;
+	margin-top:1rem;
+	color:#fff;
+}
+.membership_hotel .mem_sec01 > p.desc{
+	font-size:3.4rem;
+	font-weight:500;
+}
+.membership_hotel .mem_sec01 > p.desc span{
+	color:var(--gold-color);
+	display:inline-block;
+	position:relative;
+}
+.membership_hotel .mem_sec01 > p.desc span::after{
+	content:"";
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:100%;
+	height:6px;
+	border-top:1px solid var(--gold-color);
+	border-bottom:1px solid var(--gold-color);
+}
+
+.membership_hotel .mem_sec02{
+	text-align:center;
+	padding-top:10rem;
+	padding-bottom:10rem;
+	color:#fff;
+}
+.membership_hotel .mem_sec02 h3{
+	font-size:3.4rem;
+	font-weight:600;
+	margin-bottom:3rem;
+}
+.membership_hotel .mem_sec02 div{
+	font-size:1.8rem;
+	opacity:.6;
+	font-weight:300;
+	line-height:1.6;
+}
+
+.membership_hotel .mem_sec03{
+	padding-bottom:15rem;
+}
+.membership_hotel .mem_sec03 .room_info{
+	margin-top:8rem;
+}
+.membership_hotel .mem_sec03 .room_info:not(.room_info1){
+	display:none;
+}
+.membership_hotel .mem_sec03 .room_info h4{
+	text-align:left;
+	font-size:3rem;
+	font-weight:400;
+	margin-bottom:2.5rem;
+}
+.membership_hotel .mem_sec03 .room_info h4 span{
+	font-size:.6em;
+	font-weight:300;
+}
+.membership_hotel .mem_sec03 .room_info .room_visual{
+	height:50rem;
+	position:relative;
+	box-shadow: 4px 4px 20px rgba(0,0,0,.2);
+}
+
+.membership_hotel .mem_sec03 .room_info .room_visual > p{
+	background:#000;
+	width:20rem;
+	height:20rem;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	position:absolute;
+	right:4rem;
+	top:0;
+	transform:translateY(-40%);
+}
+.membership_hotel .mem_sec03 .room_info .room_visual > p img{
+	width:12.6rem;
+}
+.membership_hotel .mem_sec03 .room_info .room_spec{
+	display:flex;
+	align-items: flex-start;
+	margin-bottom:10rem;
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .photo{
+	width:42%;
+	transform: translate(5rem, -5rem);
+	position:relative;
+	
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .photo img{
+	width:100%;
+	box-shadow: 4px 4px 20px rgba(0,0,0,.2);
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .spec{
+	width:58%;
+	padding-left:12rem;
+	padding-top:5rem;
+	text-align:left;
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .spec hr{
+	border-top:1px solid #37373e;
+	margin:2rem 0;
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .spec > div{
+	display:flex;
+	font-size:1.8rem;
+	font-weight:300;
+}
+
+.membership_hotel .mem_sec03 .room_info .room_spec .spec > div + div{
+	margin-top:3rem;
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .spec > div > strong{
+	font-size:2rem;
+	width:15rem;
+	flex-shrink: 0;
+	color:var(--main-color2);
+	font-weight:400;
+}
+
+
+.membership_hotel .mem_sec03 .room_info .room_spec .spec > div > div:not(.time) > p{
+	display:flex;
+	gap:0 10px;
+	margin-bottom:5px;
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .spec > div > div > p.gold{
+	color:#dcbc8d;
+	font-weight:600;
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .spec > div > div > p.gold span{
+	border-bottom:1px solid #dcbc8d;
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .spec > div > div > p::before{
+	content:"·";
+	transform: scale(2);
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .spec .add_pirce > div{
+	width:100%;
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .spec .add_pirce > div > div{
+	display:flex;
+	width:100%;
+	justify-content: space-between;
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .spec .add_pirce > div > div + div{
+	padding-top:2rem;
+	margin-top:1.6rem;
+	border-top:1px solid rgba(255,255,255,.2);
+	
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .spec .add_pirce > div > div strong{
+	font-weight:400;
+	color:var(--main-color);
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .spec .add_pirce > div > div > div{
+	width:65%;
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .spec .add_pirce > div > div > div p{
+	display:flex;
+	justify-content: space-between;
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .spec .add_pirce > div > div > div p span:nth-child(1){
+	display:flex;
+	align-items: center;
+	gap:0 3px;
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .spec .add_pirce > div > div > div p span:nth-child(1)::before{
+	content:"";
+	font-family: 'xeicon';
+	opacity:.7;
+}
+
+.membership_hotel .mem_sec03 .room_info .room_spec .spec > div.rows{
+	flex-direction: column;
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .spec > div.rows > strong{
+	width:100%;
+	margin-bottom:1rem;
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .spec > div.rows table{
+	border-top:1px solid #37373e;
+	text-align:center;
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .spec > div.rows table th{
+	font-weight:300;
+	padding:1rem;
+	background:#191922;
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .spec > div.rows table td{
+	padding:15px 10px;
+	border-bottom:1px solid #37373e;
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .spec > div.rows table td + td,
+.membership_hotel .mem_sec03 .room_info .room_spec .spec > div.rows table th + th{
+	border-left:1px solid #37373e;
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .spec > div.rows table td div{
+	display:flex;
+	font-size:1.6rem;
+	justify-content: center;
+	gap:0 1rem;
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .spec > div.rows table td div > p:nth-child(1){
+	display:flex;
+	gap:0 2px;
+	align-items: center;
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .spec > div.rows table td div > p:nth-child(1)::before{
+	content: "";
+    font-family: 'xeicon';
+    opacity: .7;
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .spec > div.rows table td div > p:nth-child(2){
+	opacity:.6;
+	text-decoration:line-through;
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .spec .notice{
+	text-align:right;
+	margin-top:1.5rem;
+	font-size:1.7rem;
+	font-weight:300;
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .spec .notice strong{
+	color:#3bffae;
+	font-weight:600;
+	border-bottom:1px solid #3bffae
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .spec .notice.p strong{
+	color:var(--main-color2);
+	border-bottom:1px solid var(--main-color2);
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .spec > div > div.time{
+	width:100%;
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .spec > div > div.time > p:nth-child(1){
+	margin-bottom:2rem;
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .spec > div > div.time > p::before{
+	display:none;
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .spec > div > div.time > p.t2{
+	margin-top:1rem;
+	display:flex;
+	justify-content: space-between;
+}
+.membership_hotel .mem_sec03 .room_info .room_spec .spec > div > div.time > p.t2 strong{
+	color:var(--main-color);
+}
+
+.membership_hotel .mem_sec03 .buy{
+	text-align:left;
+	position:absolute;
+	left:0;
+	bottom:-12rem;
+}
+.membership_hotel .mem_sec03 .buy a{
+	background:#491e9f;
+	padding:3rem;
+	width:20rem;
+	height:20rem;
+	position:relative;
+	display:flex;
+	align-items: flex-end;
+	color:#fff;
+	font-weight:500;
+	font-size:1.6rem;
+}
+.membership_hotel .mem_sec03 .buy a i{
+	position:absolute;
+	right:2rem;
+	top:2rem;
+	font-size:3rem;
+	transform: rotate(-45deg);
+}
+
+.membership_hotel .notice_box{
+	border:3px solid var(--main-color2);
+	padding:3.5rem;
+	font-size:1.6rem;
+	font-weight:300;
+	display:flex;
+	gap:0 1rem;
+	align-items: flex-start;
+}
+.membership_hotel .notice_box::before{
+	content:"";
+	font-family: 'xeicon';
+	font-size:2.5rem;
+	transform: translateY(-.8rem);
+}
+
+.membership_hotel .room_notice{
+	background:#191922;
+	padding:3.5rem;
+}
+.membership_hotel .room_notice hr{
+	border-top:1px solid #37373e;
+	margin:4rem 0;
+}
+.membership_hotel .room_notice > .notice1{
+	gap:0 2rem;
+	display:flex;
+	font-weight:300;
+	font-size:1.6rem;
+}
+.membership_hotel .room_notice > .notice1 > ul,
+.membership_hotel .room_notice > .notice1 > div{
+	list-style:none;
+	padding:0;
+	width:50%;
+}
+.membership_hotel .room_notice > .notice1 > ul li,
+.membership_hotel .room_notice > .notice1 > div p{
+	display:flex;
+	align-items: flex-start;
+	gap:0 1rem;
+}
+.membership_hotel .room_notice > .notice1 > ul li + li{
+	margin-top:1rem
+}
+.membership_hotel .room_notice > .notice1 > ul li::before,
+.membership_hotel .room_notice > .notice1 > div p::before{
+	content:"·";
+	font-weight:900;
+}
+.membership_hotel .room_notice > .notice1 table{
+	width:100%;
+	border-top:1px solid #37373e;
+	text-align:center;
+	margin-top:1rem;
+}
+.membership_hotel .room_notice > .notice1 table th{
+	background:#0f0f17;
+	padding:1.5rem 5px;
+}
+.membership_hotel .room_notice > .notice1 table td{
+	padding:1.5rem 5px;
+	border-bottom:1px solid #37373e;
+}
+.membership_hotel .room_notice > .notice1 table th + th,
+.membership_hotel .room_notice > .notice1 table td + td{
+	border-left:1px solid #37373e;
+}
+
+.membership_hotel .room_notice > .notice2{
+	font-size:1.7rem;
+}
+.membership_hotel .room_notice > .notice2 dl + dl{
+	margin-top:3rem;
+}
+.membership_hotel .room_notice > .notice2 dl dt{
+	color:var(--main-color2);
+	margin-bottom:1rem;
+}
+.membership_hotel .room_notice > .notice2 dl dd{
+	font-weight:300;
+	line-height:1.6;
+}
+.membership_hotel .room_notice > .notice2 dl dd .bullet{
+	display:flex;
+	gap:0 5px;
+}
+.membership_hotel .room_notice > .notice2 dl dd .bullet::before{
+	content:"·";
+}
+
+@media(max-width:1199.98px){
+	.membership_hotel .mem_sec03 .room_info h4{
+		margin-bottom:4rem;
+	}
+	.membership_hotel .mem_sec03 .room_info .room_visual > p {
+		width: 16rem;
+		height: 16rem;
+		transform: translateY(-20%);
+	}
+}
+@media(max-width:991.98px){
+	.membership_hotel .mem_sec01 h3{
+		font-size:4rem;
+	}
+	.membership_hotel .mem_sec01 h3 p img{
+		max-width:30rem;
+	}
+	.membership_hotel .mem_sec01 > p.desc{
+		font-size:2.8rem;
+	}
+	.membership_hotel .mem_sec03 .room_info .room_spec{
+		flex-direction: column;
+	}
+	.membership_hotel .mem_sec03 .room_info .room_spec .photo{
+		width:100%;
+		transform: translate(0rem, 0rem);
+		margin-top:3rem;
+	}
+	.membership_hotel .mem_sec03 .room_info .room_spec .photo img{
+		display:none;
+	}
+	.membership_hotel .mem_sec03 .buy{
+		position:relative;
+		left: 0;
+		bottom: 0rem;
+	}
+	.membership_hotel .mem_sec03 .buy a{
+		width:100%;
+		height:7rem;
+		padding:0 3rem;
+		align-items: center;
+		justify-content: space-between;
+		font-size:2rem;
+	}
+	.membership_hotel .mem_sec03 .buy a i {
+		position: relative;
+		right: 0;
+		top: 0;
+		font-size: 3rem;
+		transform: rotate(0deg);
+	}
+	.membership_hotel .mem_sec03 .room_info .room_spec .spec{
+		padding-left:0;
+		width:100%;
+		order:-1;
+	}
+	.membership_hotel .room_notice > .notice1{
+		flex-direction: column;
+	}
+	.membership_hotel .room_notice > .notice1 > ul,
+	.membership_hotel .room_notice > .notice1 > div{
+		width:100%;
+	}
+	.membership_hotel .room_notice > .notice1 > div > p{
+		margin-top:1rem;
+	}
+}
+@media(max-width:767.98px){
+	.membership_hotel .mem_sec01 {
+		padding-top: 15rem;
+		padding-bottom: 12rem;
+		text-align: center;
+		color: #fff;
+	}
+	.membership_hotel .mem_sec02 {
+		padding-top: 8rem;
+		padding-bottom: 6rem;
+	}
+	.membership_hotel .mem_sec02 h3{
+		font-size:2.8rem;
+	}
+	#sub_container .tabs1 ul{
+		gap:0 2rem;
+	}
+	#sub_container .tabs1 ul li a{
+		font-size:2rem;
+		text-align:center;
+	}
+	#sub_container .tabs2 ul li a{
+		text-align:center;
+		line-height:1.2;
+		font-size:1.6rem;
+	}
+	.membership_hotel .mem_sec03{
+		padding-bottom:10rem;
+	}
+
+
+	.membership_hotel .mem_sec03 .room_info{
+		margin-top:5rem;
+	}
+	.membership_hotel .mem_sec03 .room_info h4 {
+		font-size: 2.8rem;
+		margin-bottom:3.5rem;
+	}
+	.membership_hotel .mem_sec03 .room_info h4 span{
+		display:block;
+		padding-top:5px;
+	}
+	.membership_hotel .mem_sec03 .room_info .room_visual{
+		height:40rem;
+	}
+	.membership_hotel .mem_sec03 .room_info .room_visual > p {
+		width: 14rem;
+		height: 14rem;
+		right:2rem;
+	}
+	.membership_hotel .mem_sec03 .room_info .room_visual > p img{
+		width:10rem;
+	}
+	.membership_hotel .mem_sec03 .room_info .room_spec{
+		margin-bottom:6rem;
+	}
+	.membership_hotel .mem_sec03 .room_info .room_spec .spec > div{
+		flex-direction: column;
+	}
+	.membership_hotel .mem_sec03 .room_info .room_spec .spec > div > strong{
+		width:100%;
+		margin-bottom:1rem;
+	}
+	.membership_hotel .notice_box {
+		border: 2px solid var(--main-color2);
+		padding: 2.5rem;
+	}
+	.membership_hotel .room_notice {
+		padding: 2.5rem;
+	}
+	
+}
+
+@media(max-width:576.98px){
+	.membership_hotel .mem_sec03 .room_info .room_visual > p {
+		width: 10rem;
+		height: 10rem;
+	}
+	.membership_hotel .mem_sec03 .room_info .room_visual > p img{
+		width:8rem;
+	}
+	.membership_hotel .room_notice > .notice1 > ul li,
+	.membership_hotel .room_notice > .notice1 > div > p{
+		display:block;
+	}
+	.membership_hotel .room_notice > .notice1 > ul li::before, .membership_hotel .room_notice > .notice1 > div p::before{
+		padding-right:5px;
+	}
+	.membership_hotel .mem_sec03 .room_info .room_spec .spec > div.rows table td div{
+		flex-direction: column;
+	}
+	.membership_hotel .mem_sec03 .room_info .room_spec .spec > div.rows table td div + div{
+		margin-top:1.5rem;
+	}
+	.membership_hotel .mem_sec03 .room_info .room_spec .spec > div.rows table td div > p:nth-child(1){
+		justify-content: center;
+	}
+}
+
+
+
+/*membership_hotel_pirce*/
+.membership_hotel_pirce{}
+.membership_hotel_pirce > section::before{
+	background:#0f0f17;
+}
+.membership_hotel_pirce > section h3 span{
+	color:var(--main-color2)
+}
+.membership_hotel_pirce > section .price_group{
+	display:flex;
+}
+.membership_hotel_pirce > section .price_group h4{
+	font-size:3rem;
+	font-weight:500;
+	width:26%;
+	flex-shrink: 0;
+}
+.membership_hotel_pirce > section .price_group h4 small{
+	display:block;
+	font-size:1.6rem;
+	font-weight:300;
+	opacity:.6;
+	margin-top:2rem;
+}
+
+
+.membership_hotel_pirce td > div.rows > strong{
+	width:100%;
+	margin-bottom:1rem;
+	display:block;
+	text-align:left;
+	color:var(--main-color2);
+	font-weight:500;
+	font-size:1.8rem;
+}
+.membership_hotel_pirce td > div.rows table{
+	border-top:1px solid #37373e;
+	text-align:center;
+}
+.membership_hotel_pirce td > div.rows table th{
+	font-weight:300;
+	padding:1rem;
+	background:#191922;
+}
+.membership_hotel_pirce td > div.rows table td{
+	padding:15px 10px;
+	border-bottom:1px solid #37373e;
+}
+.membership_hotel_pirce td > div.rows table td + td,
+.membership_hotel_pirce td > div.rows table th + th{
+	border-left:1px solid #37373e;
+}
+.membership_hotel_pirce td > div.rows table td div{
+	display:flex;
+	font-size:1.4rem;
+	justify-content: center;
+	gap:0 1rem;
+}
+.membership_hotel_pirce td > div.rows table td div > p:nth-child(1){
+	display:flex;
+	gap:0 2px;
+	align-items: center;
+}
+.membership_hotel_pirce td > div.rows table td div > p:nth-child(1)::before{
+	content: "";
+    font-family: 'xeicon';
+    opacity: .7;
+}
+.membership_hotel_pirce td > div.rows table td div > p:nth-child(2){
+	opacity:.6;
+	text-decoration:line-through;
+}
+.membership_hotel_pirce .btn.view{
+	bordeR:1px solid #fff;
+	border-radius:0;
+	padding:.6rem 1.5rem;
+	color:#fff;
+	font-size:1.4rem;
+	margin-left:1rem;
+
+}
+
+@media(max-width:1199.98px){
+	.membership_hotel_pirce > section .price_group{
+		flex-direction: column;
+	}
+	.membership_hotel_pirce > section .price_group h4{
+		width:100%;
+		margin-bottom:1rem;
+	}
+	.membership_hotel_pirce > section .price_group h4 br{
+		display:none;
+	}
+}
+@media(max-width:991.98px){
+	.membership_hotel_pirce > section .price_group h4 {
+		font-size: 2.4rem;
+	}
+	.membership_hotel_pirce > section .price_group h4 small{
+		margin-top:1.5rem;
+	}
+	.membership_hotel_pirce colgroup{
+		display:none !important;
+	}
+}
+@media(max-width:767.98px){
+	.membership_hotel_pirce > section .price_group h4 {
+		font-size: 2rem;
+	}
+	.membership_hotel_pirce td > div.rows table td div{
+		flex-direction: column;
+	}
+	.membership_hotel_pirce td > div.rows table td div + div{
+		margin-top:1.5rem;
+	}
+	.membership_hotel_pirce td > div.rows table td div > p:nth-child(1){
+		justify-content: center;
+	}
+}
+
+
+/*예약정보입력*/
+.membership_reservation{}
+.membership_reservation .form_group{
+	width:100%;
+}
+.membership_reservation .form_group.flex1,
+.membership_reservation .form_group .flex1{
+	display:flex;
+	gap:0 2rem;
+}
+.membership_reservation .form_group.check_group{
+	flex-wrap: wrap;
+	display:flex;
+	gap:1rem 3rem;
+	padding-top:1rem;
+}
+.membership_reservation .form-control{
+	background:transparent !important;
+	border:none;
+	border-bottom:1px solid rgba(255,255,255,.4);
+	height:4.8rem;
+	font-size:1.8rem;
+	color:#fff;
+	width:100%;
+}
+.membership_reservation .form-control:active,
+.membership_reservation .form-control:focus{
+	border-bottom:1px solid rgba(255,255,255,1);
+}
+.membership_reservation select.form-control{
+	appearance: none;
+	background:#0f0f17 url(../_img/comm/select_arrow.png) no-repeat right 5px center / 12px auto !important;
+	padding-right:2.5rem;
+}
+.membership_reservation .form_group .info{
+	font-size:1.7rem;
+	font-weight:300;
+	display:flex;
+	gap:0 .8rem;
+}
+.membership_reservation .form_group .info::before{
+	content:"";
+	font-family: "xeicon";
+}
+
+
+.membership_reservation section.container{
+	max-width:680px;
+}
+.membership_reservation section.container.container-lg{
+	max-width:1060px;
+}
+
+.membership_reservation .form_box{}
+.membership_reservation .form_box > ul{
+	list-style:none;
+	padding:0;
+}
+.membership_reservation .form_box > ul > li{
+	display:flex;
+	align-items: flex-start;
+}
+.membership_reservation .form_box > ul > li + li{
+	margin-top:3rem;
+}
+.membership_reservation .form_box > ul > li > strong{
+	width:37%;
+	max-width:20rem;
+	font-size:1.6rem;
+	font-weight:500;
+	height:4.8rem;
+	display:flex;
+	align-items: center;
+	flex-shrink: 0;
+}
+
+.membership_reservation .form_box .tel_group{
+	display:flex;
+	gap:0 1.5rem;
+}
+.membership_reservation .form_box .tel_group select.form-control{
+	width:35%;
+}
+.membership_reservation .form_box .date_group,
+.membership_reservation .form_box .form_group.card_num,
+.membership_reservation .form_box .form_group.card_period{
+	display:flex;
+	align-items: center;
+}
+.membership_reservation .form_box .date_group .bar,
+.membership_reservation .form_box .form_group.card_num .bar,
+.membership_reservation .form_box .form_group.card_period .bar{
+	width:2rem;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+}
+.membership_reservation .form_box .agree_box{
+	padding:3rem;
+	background:#191922;
+	overflow-y:auto;
+	font-size:1.6rem;
+	font-weight:300;
+	height:17rem;
+}
+
+
+
+.membership_reservation .form_box_detail{}
+.membership_reservation .form_box_detail li{
+	border-bottom:1px solid rgba(255,255,255,.2);
+	align-items: center !important;
+	padding-bottom:1.5rem;
+}
+.membership_reservation .form_box_detail li strong{
+	height:auto !important;
+}
+.membership_reservation .form_box_detail li strong::after{
+	display:none !important;
+}
+.membership_reservation .form_box_detail li .form_group{
+	font-size:1.7rem;
+	border-left:1px solid rgba(255,255,255,.2);
+	text-align: left;
+	padding-left:3rem;
+}
+.membership_reservation .form_box_detail li .form_group > p + p{
+	margin-top:1.5rem;
+}
+.membership_reservation .form_box_detail li .form_group > p span{
+	display:inline-block;
+}
+
+
+@media(max-width:767.98px){
+	.membership_reservation .form_box h4, .membership_wrap h4.mem_title {
+		font-size: 2.4rem;
+		margin-bottom: 3rem;
+	}
+}
+@media(max-width:576.98px){
+	.membership_reservation .form_box h4, .membership_wrap h4.mem_title {
+		font-size: 2.2rem;
+	}
+	.membership_reservation .form_box:not(.form_box_detail) > ul > li{
+		flex-direction: column;
+	}
+	.membership_reservation .form_box > ul > li > strong{
+		width:100%;
+	}
+	.membership_reservation .notice_box, .membership_wrap .notice_box {
+		padding: 2rem;
+		font-size: 1.6rem;
+	}
+	.membership_reservation .form_box.form_box_detail > ul > li > strong{
+		max-width:13rem;
+		padding-right:1.5rem;
+		text-align:left;
+	}
+	.membership_reservation .form_box_detail li .form_group{
+		padding-left:1.5rem;
+	}
+	.membership_reservation .form_box_detail li .form_group > p + p{
+		margin-top:1rem;
+	}
+}
+
+
+/*membership_mypage*/
+.membership_mypage{}
+.membership_mypage .table_group table{
+	font-size:1.6rem;
+	font-weight:300;
+}
+.membership_mypage .table_group table td p+p{
+	margin-top:5px;
+}
+.membership_mypage .table_group table a.btn{
+	font-size:1.3rem;
+	height:4rem;
+	border:1px solid #fff;
+	border-radius:0;
+	color:#fff;
+	padding:0;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	font-weight:400;
+	width:9rem;
+	letter-spacing: -0.02em;
+	line-height:1.1;
+	padding-top:2px;
+}
+.membership_mypage .table_group table a.btn.imp{
+	bordeR:1px solid #3c3c47;
+	background:#3c3c47;
+	color:#999;
+}
+.membership_mypage .table_group table a.btn.com{
+	bordeR:1px solid var(--main-color2);
+	background:var(--main-color2);
+	pointer-events: none;
+}
+.membership_mypage .notice_box{
+	min-height:24.5rem
+}
+.membership_mypage .notice_box > div > strong span{
+	color:#31d290;
+	text-decoration: underline;
+}
+.membership_mypage .notice_box > div > p{
+	display:flex;
+	gap:0 5px;
+}
+.membership_mypage .notice_box > div > p i{
+	font-style: normal;
+	font-size:1em;
+}
+
+.membership_mypage .cs_box{
+	border:7px solid #7936d3;
+	background:#191922;
+	display:flex;
+	align-items: center;
+	padding:5rem 5rem;
+	gap:0 4rem;
+}
+.membership_mypage .cs_box dl{
+	text-align:left;
+}
+.membership_mypage .cs_box dl dt{
+	font-size:2.6rem;
+	margin-bottom:1.5rem;
+}
+.membership_mypage .cs_box dl dd{
+	font-size:1.7rem;
+	font-weight:300;
+}
+.membership_mypage .cs_box div:last-child{
+	margin-left:auto;
+}
+@media(max-width:991.98px){
+	.membership_mypage .cs_box{
+		border:5px solid #7936d3;
+		padding:3rem 2.5rem;
+		gap:0 3rem;
+	}
+	.membership_mypage .cs_box img{
+		width:15rem;
+	}
+	.membership_mypage .cs_box dl dt{
+		font-size:2.2rem;
+		margin-bottom:1rem;
+	}
+	.membership_mypage .cs_box dl dd{
+		font-size:1.5rem;
+	}
+}
+@media(max-width:767.98px){
+	
+	.membership_mypage .notice_box{
+		min-height:auto;
+	}
+	.membership_mypage .cs_box{
+		flex-direction:column;
+	}
+	.membership_mypage .cs_box dl{
+		text-align:center;
+		margin:2.5rem 0;
+	}
+	.membership_mypage .cs_box dl dt{
+		font-size:2rem;
+	}
+	.membership_mypage .cs_box div:last-child{
+		margin-left:unset;
+	}
+}
+
+
+
+/*nft_benefit*/
+.nft_benefit_wrap{}
+.nft_benefit_wrap hr{
+	border-top:1px solid rgba(255,255,255,.2);
+	margin:5rem 0;
+}
+.nft_benefit_wrap .ntf_info{
+	display:flex;
+	gap:0 3%;
+}
+.nft_benefit_wrap .ntf_info .nft_face{
+	width:32rem;
+	border:1px solid rgba(255,255,255,.2);
+	padding:6rem 4rem;
+	flex-shrink: 0;
+}
+.nft_benefit_wrap .ntf_info .nft_face .face img{
+	width:100%;
+}
+.nft_benefit_wrap .ntf_info .nft_face .name{
+	margin-top:3rem;
+	padding-top:2.5rem;
+	border-top:1px solid rgba(255,255,255,.2);
+	text-align:center;
+	font-weight:600;
+	font-size:2rem;
+}
+.nft_benefit_wrap .nft_stats{
+	border:1px solid rgba(255,255,255,.2);
+	padding:4rem 4rem;
+	width:100%;
+	display:flex;
+}
+.nft_benefit_wrap .nft_stats > div{
+	width:40%;
+}
+.nft_benefit_wrap .nft_stats > div:nth-child(2){
+	width:60%;
+}
+.nft_benefit_wrap .nft_stats .group + .group{
+	margin-top:2rem;
+}
+.nft_benefit_wrap .nft_stats .group strong{
+	display:flex;
+	width:18rem;
+	height:4rem;
+	background:#3bffae;
+	color:#000;
+	align-items: center;
+	justify-content: center;
+	border-radius:6rem;
+	font-size:1.5rem;
+	padding-top:.4rem;
+	margin-bottom:1rem;
+	letter-spacing: -0.02em;
+}
+.nft_benefit_wrap .nft_stats .group p{
+	font-size:1.6rem;
+	font-weight:300;
+}
+.nft_benefit_wrap .group ul{
+	list-style:none;
+	padding:0;
+}
+.nft_benefit_wrap .group ul li{
+	display:flex;
+	gap:0 5px;
+	font-size:1.6rem;
+	font-weight:300;
+}
+.nft_benefit_wrap .group ul li+li{
+	margin-top:3px;
+}
+.nft_benefit_wrap .group ul li i{
+	font-style: normal;
+	font-weight:600;
+}
+
+@media(max-width:1199.98px){
+	.nft_benefit_wrap .nft_stats{
+		flex-direction: column;
+	}
+	.nft_benefit_wrap .nft_stats > div{
+		display:flex;
+		flex-direction: column;
+		gap:0 1.5rem;
+		width:100% !important;
+	}
+	.nft_benefit_wrap .nft_stats > div > .group{
+		width:100%;
+		display:flex;
+		gap:0 1rem;
+	}
+	.nft_benefit_wrap .nft_stats .group strong{
+		margin-bottom:0;
+		flex-shrink: 0;
+	}
+	.nft_benefit_wrap .nft_stats .group p,
+	.nft_benefit_wrap .nft_stats .group ul{
+		padding-top:1rem
+	}
+	.nft_benefit_wrap .nft_stats .group + .group,
+	.nft_benefit_wrap .nft_stats > div + div{
+		margin-top:1.5rem;
+	}
+}
+@media(max-width:991.98px){
+	.nft_benefit_wrap hr {
+		margin: 4rem 0;
+	}
+	.nft_benefit_wrap .ntf_info .nft_face {
+		width: 28rem;
+		padding: 5rem 2.5rem;
+	}
+	.nft_benefit_wrap .nft_stats {
+		padding: 2rem 2rem;
+	}
+	.nft_benefit_wrap .nft_stats > div > .group{
+		flex-direction: column;
+	}
+	.nft_benefit_wrap .nft_stats .group strong {
+		display: flex;
+		height: 3.4rem;
+		font-size: 1.5rem;
+		padding-top: .3rem;
+	}
+	.nft_benefit_wrap .nft_stats .group p,
+	.nft_benefit_wrap .group ul li{
+		font-size:1.6rem;
+	}
+	.nft_benefit_wrap .nft_stats .group p, .nft_benefit_wrap .nft_stats .group ul {
+        padding-top: .7rem;
+    }
+}
+@media(max-width:767.98px){
+	.nft_benefit_wrap .ntf_info{
+		flex-direction: column;
+	}
+	.nft_benefit_wrap .ntf_info .nft_face{
+		width:100%;
+		text-align:center;
+		margin-bottom:-1px;
+	}
+	.nft_benefit_wrap .ntf_info .nft_face .face img{
+		max-width:28rem;
+	}
+}
+
+
+/*pop_cancel_Impossible*/
+#pop_cancel_Impossible .modal_cont{
+	border:1px solid #ddd;
+	border-radius:2.5rem;
+	padding:2.5rem 4rem;
+	text-align:left;
+	font-size:1.7rem;
+}
+#pop_cancel_Impossible .modal_cont dl{}
+#pop_cancel_Impossible .modal_cont dl dt{
+	display:flex;
+	gap:0 1rem;
+	font-size:1.8rem;
+	margin-bottom:1.5rem;
+}
+#pop_cancel_Impossible .modal_cont dl dt::before{
+	content:"";
+	font-family: 'xeicon';
+	transform: scale(1.5) translateY(-2px);
+}
+#pop_cancel_Impossible .modal_cont dl dd{
+	padding-left:2.7rem;
+}
+#pop_cancel_Impossible .modal_cont dl dd:nth-child(2){
+	color:#444;
+	margin-bottom:1.5rem;
+	font-weight:500;
+}
+#pop_cancel_Impossible .modal_cont dl dd:nth-child(3){
+	font-weight:300;
+}
